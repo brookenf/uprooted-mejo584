@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://uprooted.unc.edu/es/</loc>
+    <loc>https://brookenf.github.io/uprooted-mejo584/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://uprooted.unc.edu/"
+                href="https://brookenf.github.io/uprooted-mejo584/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://uprooted.unc.edu/es/"
+                href="https://brookenf.github.io/uprooted-mejo584/es/"
                 />
   </url>
   
   <url>
-    <loc>https://uprooted.unc.edu/es/categories/</loc>
+    <loc>https://brookenf.github.io/uprooted-mejo584/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://uprooted.unc.edu/categories/"
+                href="https://brookenf.github.io/uprooted-mejo584/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://uprooted.unc.edu/es/categories/"
+                href="https://brookenf.github.io/uprooted-mejo584/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://uprooted.unc.edu/es/tags/</loc>
+    <loc>https://brookenf.github.io/uprooted-mejo584/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://uprooted.unc.edu/tags/"
+                href="https://brookenf.github.io/uprooted-mejo584/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://uprooted.unc.edu/es/tags/"
+                href="https://brookenf.github.io/uprooted-mejo584/es/tags/"
                 />
   </url>
   
