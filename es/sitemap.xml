@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>../../es/</loc>
+    <loc>uprooted-mejo584/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="../../"
+                href="uprooted-mejo584/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="../../es/"
+                href="uprooted-mejo584/es/"
                 />
   </url>
   
   <url>
-    <loc>../../es/categories/</loc>
+    <loc>uprooted-mejo584/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="../../categories/"
+                href="uprooted-mejo584/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="../../es/categories/"
+                href="uprooted-mejo584/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>../../es/tags/</loc>
+    <loc>uprooted-mejo584/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="../../tags/"
+                href="uprooted-mejo584/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="../../es/tags/"
+                href="uprooted-mejo584/es/tags/"
                 />
   </url>
   
