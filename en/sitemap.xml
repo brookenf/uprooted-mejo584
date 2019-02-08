@@ -3,88 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/story1/</loc>
+    <loc>../story1/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/story2/</loc>
+    <loc>../story2/</loc>
     <lastmod>2019-02-04T21:35:11-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/story3/</loc>
+    <loc>../story3/</loc>
     <lastmod>2019-02-04T21:35:29-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/story4/</loc>
+    <loc>../story4/</loc>
     <lastmod>2019-02-04T21:35:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/story5/</loc>
+    <loc>../story5/</loc>
     <lastmod>2019-02-04T21:36:06-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>../about/</loc>
     <lastmod>2019-02-04T21:36:24-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/interactive/</loc>
+    <loc>../interactive/</loc>
     <lastmod>2019-02-06T13:14:40-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>../categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/categories/"
+                href="../es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="../categories/"
                 />
   </url>
   
   <url>
-    <loc>/pages/</loc>
+    <loc>../pages/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>../tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="../es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="../tags/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>../</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/"
+                href="../es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="../"
                 />
   </url>
   
