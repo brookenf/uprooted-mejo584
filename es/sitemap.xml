@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://brookenf.github.io/uprooted-mejo584/es/</loc>
+    <loc>/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://brookenf.github.io/uprooted-mejo584/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://brookenf.github.io/uprooted-mejo584/es/"
+                href="/es/"
                 />
   </url>
   
   <url>
-    <loc>https://brookenf.github.io/uprooted-mejo584/es/categories/</loc>
+    <loc>/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://brookenf.github.io/uprooted-mejo584/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://brookenf.github.io/uprooted-mejo584/es/categories/"
+                href="/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://brookenf.github.io/uprooted-mejo584/es/tags/</loc>
+    <loc>/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://brookenf.github.io/uprooted-mejo584/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://brookenf.github.io/uprooted-mejo584/es/tags/"
+                href="/es/tags/"
                 />
   </url>
   
