@@ -56,20 +56,20 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 04 Feb 2019 21:36:24 -0500</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
-    </item>
-    
-    <item>
       <title>Interactive</title>
       <link>/interactive/</link>
       <pubDate>Wed, 06 Feb 2019 13:14:40 -0500</pubDate>
       
       <guid>/interactive/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 04 Feb 2019 21:36:24 -0500</pubDate>
+      
+      <guid>/about/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
     </item>
     
