@@ -21,7 +21,7 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.65b0741e4dc5363e7006119b08d9a17e0f248d959f74e6b6b8e1a1bb40576595.css">
+  <link rel="stylesheet" href="../css/style.min.373a47f27421e4f64750bb0f8a6a41b88aedce1f78d714e1a8bd4a07c8c2176f.css">
   
 
   
@@ -85,16 +85,18 @@
 </div>
 <nav>
   
-  <div class="flex" id="header">
-  <div class="container flex">
-    <div class="header__logo">
+  <div class="header" id="header">
+    <div class="container flex">
+  <div class="header__logo">
+    
+    <a href="https://brookenf.github.io/uprooted-mejo584/">Uprooted
       
-      <a href="https://brookenf.github.io/uprooted-mejo584/"><img alt="Uprooted Homepage"
-          src="https://brookenf.github.io/uprooted-mejo584/images/logo-wide-white.png" /></a>
-      
-    </div>
-    <div class="story-dropdown" id="story-dropdown">
-      <p>Stories <i class="fas fa-angle-down"></i></p>
+    </a>
+    
+  </div>
+  <div class="header__nav flex">
+    <div class="header__story-dropdown" id="header__story-dropdown">
+      <div>Stories <i class="fas fa-angle-down"></i></div>
       <div id="main-menu" class="main-menu">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
   x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
@@ -171,18 +173,19 @@
 </div>
     </div>
 
-    <a href="../about" class="about-us" id="about-us">About Us</a>
-    <div class="social-icons">
+    <a href="../about" class="header__about" id="header__about">About Us</a>
+    <div class="header__social-icons">
       <a href="https://www.facebook.com/uprootedUNC/" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/uprootedunc/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-    <div class="lang-toggle">
-      <span class="lang-toggle__en">EN</span> |
-      <span class="lang-toggle__es">ES</span>
+    <div class="header__lang-toggle">
+      <span class="header__lang-toggle__en">EN</span> |
+      <span class="header__lang-toggle__es">ES</span>
     </div>
   </div>
 </div>
+  </div>
   
   
 <a href="https://brookenf.github.io/uprooted-mejo584/"><img class="hamburger__logo" alt="Uprooted Homepage"
@@ -198,7 +201,7 @@
 </nav>
 <div class="flex-column hero-image story-hero bg-cover bg-position-center"
   style="background-image: url('../images/about.jpg')">
-  <h1>About Us</h1>
+  <h1 class="story-hero__title">About Us</h1>
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
   x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
   <g>
@@ -214,7 +217,7 @@
       x2="190.847" y2="1.5" />
   </g>
 </svg>
-  <h3></h3>
+  <h3 class="story-hero__desc"></h3>
 </div>
 
 <section class="about__intro flex-column">
@@ -225,10 +228,11 @@
 
 
 <div class="pull-quote-container flex-column">
-  <h2><p>We are a team of dedicated student-journalists type-
+  <div class="absolute">
+    <p>We are a team of dedicated student-journalists type-
 quote here to summarize our team objective.</p>
-</h2>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
   x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
   <g>
     <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="1.653" y1="1.5"
@@ -243,13 +247,15 @@ quote here to summarize our team objective.</p>
       x2="190.847" y2="1.5" />
   </g>
 </svg>
+    <div id="pull-quote__attr">,  </div>
+  </div>
 </div>
 
 
 
 <p>This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
 
-  <h1>Meet the Team</h1>
+  <h1 class="about__heading">Meet the Team</h1>
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
   x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
   <g>
@@ -270,12 +276,12 @@ quote here to summarize our team objective.</p>
 <div class="container">
   <div id="team">
     <div class="controls about__filter flex">
-      <div data-filter="all" id="about__filter--everyone">Everyone</div>
-      <div data-filter=".photovid" id="about__filter--photog">Photo/Video</div>
-      <div data-filter=".rep" id="about__filter--vid">Reporters</div>
-      <div data-filter=".int" id="about__filter--des">Interactive</div>
-      <div data-filter=".coach" id="about__filter--coach">Coaches</div>
-      <div data-filter=".field" id="about__filter--">Field Producers</div>
+      <div data-filter="all">Everyone</div>
+      <div data-filter=".photovid">Photo/Video</div>
+      <div data-filter=".rep">Reporters</div>
+      <div data-filter=".int">Interactive</div>
+      <div data-filter=".coach">Coaches</div>
+      <div data-filter=".field">Field Producers</div>
     </div>
 
     <div class="about__content flex">
@@ -940,7 +946,7 @@ quote here to summarize our team objective.</p>
 </div>
 
 <section class="about__thanks">
-  <h1>Special Thanks</h1>
+  <h1 class="about__heading">Special Thanks</h1>
 </section>
 
 
@@ -965,7 +971,7 @@ quote here to summarize our team objective.</p>
 
 
 
-<script type="text/javascript" src="../js/aboutpageBundle.min.cddf300255f6f4719c8015c340a739908994de1e3a3d1fbc2aee84181dbcde86.js"></script>
+<script type="text/javascript" src="../js/aboutpageBundle.min.69ec091f758397508344e5266e06c4f81a65c93270fe9d0c892dda3846a624a5.js"></script>
 
 
 <script>
