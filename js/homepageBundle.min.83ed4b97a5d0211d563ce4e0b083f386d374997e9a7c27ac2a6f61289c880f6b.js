@@ -1,0 +1,8 @@
+$(function(){console.log('Hello world');});console.log("cards");$('.card').hover(function(){$(this).toggleClass('hovered');},function(){$(this).toggleClass('hovered');})
+$('.cards').hover(function(){$(this).toggleClass('darkened')},function(){$(this).toggleClass('darkened');})
+let init=function(){console.log("init called");let controller=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:'onLeave'}});let slides=document.querySelectorAll("section.panel");slides.forEach((slide)=>{new ScrollMagic.Scene({triggerElement:slide}).setPin(slide).addTo(controller);});}
+document.addEventListener("DOMContentLoaded",init);console.log('homepage js linked');console.log('testing to make sure headers.js is linked up');var prevScrollpos=window.pageYOffset;window.onscroll=function(){var currentScrollPos=window.pageYOffset;if(prevScrollpos>currentScrollPos){document.getElementById("header").style.top="0";}else{document.getElementById("header").style.top="-75px";}
+prevScrollpos=currentScrollPos;}
+var storyDropdown=document.getElementById('header__story-dropdown');var mainMenu=document.getElementById('main-menu');storyDropdown.onmouseenter=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+storyDropdown.onmouseleave=function(){storyDropdown.classList.toggle('is-active');mainMenu.classList.toggle('open');}
+var body=document.querySelector('body');var menuTrigger=document.querySelector('#toggle-main-menu-mobile');var menuContainer=document.querySelector('#main-menu-mobile');menuTrigger.onclick=function(){menuContainer.classList.toggle('open');menuTrigger.classList.toggle('is-active');body.classList.toggle('lock-scroll');}
