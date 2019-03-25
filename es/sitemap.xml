@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/es/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
-                />
-  </url>
-  
-  <url>
     <loc>/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -44,6 +29,20 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
                 />
   </url>
   
