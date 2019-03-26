@@ -66,6 +66,17 @@
     </item>
     
     <item>
+      <title>Home About</title>
+      <link>/home-about/</link>
+      <pubDate>Mon, 25 Mar 2019 09:35:17 -0400</pubDate>
+      
+      <guid>/home-about/</guid>
+      <description>We are a team of dedicated student-journalists type- quote here to summarize our team objective.
+This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project.
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</description>
+    </item>
+    
+    <item>
       <title>About Us</title>
       <link>/about/</link>
       <pubDate>Mon, 04 Feb 2019 21:36:24 -0500</pubDate>

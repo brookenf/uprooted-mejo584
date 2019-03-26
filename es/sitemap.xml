@@ -3,6 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/es/story1/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story1/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/story2/</loc>
+    <lastmod>2019-02-04T21:35:11-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story2/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/story3/</loc>
+    <lastmod>2019-02-04T21:35:29-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story3/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/story4/</loc>
+    <lastmod>2019-02-04T21:35:51-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story4/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/story5/</loc>
+    <lastmod>2019-02-04T21:36:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story5/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/interactive/</loc>
+    <lastmod>2019-02-06T13:14:40-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/interactive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/interactive/"
+                />
+  </url>
+  
+  <url>
     <loc>/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -14,6 +104,22 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/pages/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/"
                 />
   </url>
   
@@ -34,6 +140,7 @@
   
   <url>
     <loc>/es/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

@@ -5,31 +5,96 @@
   <url>
     <loc>/story1/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story1/"
+                />
   </url>
   
   <url>
     <loc>/story2/</loc>
     <lastmod>2019-02-04T21:35:11-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story2/"
+                />
   </url>
   
   <url>
     <loc>/story3/</loc>
     <lastmod>2019-02-04T21:35:29-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story3/"
+                />
   </url>
   
   <url>
     <loc>/story4/</loc>
     <lastmod>2019-02-04T21:35:51-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story4/"
+                />
   </url>
   
   <url>
     <loc>/story5/</loc>
     <lastmod>2019-02-04T21:36:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/story5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/story5/"
+                />
   </url>
   
   <url>
     <loc>/interactive/</loc>
     <lastmod>2019-02-06T13:14:40-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/interactive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/interactive/"
+                />
+  </url>
+  
+  <url>
+    <loc>/home-about/</loc>
+    <lastmod>2019-03-25T09:35:17-04:00</lastmod>
   </url>
   
   <url>
@@ -56,6 +121,16 @@
     <loc>/pages/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/pages/"
+                />
   </url>
   
   <url>
