@@ -57,12 +57,14 @@
     </item>
     
     <item>
-      <title>Embracing Medellín</title>
-      <link>/es/interactive/</link>
-      <pubDate>Wed, 06 Feb 2019 13:14:40 -0500</pubDate>
+      <title>Home About</title>
+      <link>/es/home-about/</link>
+      <pubDate>Mon, 25 Mar 2019 09:35:17 -0400</pubDate>
       
-      <guid>/es/interactive/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lectus non sem scelerisque elementum. Sed tempor velit non urna lobortis sodales. Nunc vitae lectus sed justo eleifend lacinia sed nec mauris. Quisque pulvinar lorem sed neque sodales, vitae ultricies arcu eleifend. Sed suscipit est nulla, efficitur varius libero ultricies at. Nullam a mollis dui. Donec a felis sapien. Aliquam euismod nec ipsum sit amet consequat. Quisque faucibus arcu at sem congue, eget hendrerit turpis euismod.</description>
+      <guid>/es/home-about/</guid>
+      <description>We are a team of dedicated student-journalists type- quote here to summarize our team objective.
+This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project.
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</description>
     </item>
     
   </channel>

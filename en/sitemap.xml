@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/local-stories/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/story1/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <xhtml:link
@@ -15,6 +20,11 @@
                 hreflang="en"
                 href="/story1/"
                 />
+  </url>
+  
+  <url>
+    <loc>/interactive/chap1/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
   </url>
   
   <url>
@@ -95,6 +105,16 @@
   <url>
     <loc>/home-about/</loc>
     <lastmod>2019-03-25T09:35:17-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/home-about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/home-about/"
+                />
   </url>
   
   <url>
