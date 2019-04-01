@@ -21,7 +21,7 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.559097b32767d3b6a4fd8c06b01e42a8c5675cdc1ec47ca0862f864629e84c77.css">
+  <link rel="stylesheet" href="../css/style.min.c55abef17f0589aec464155dd225ed5980e16bec0dc799f2c2d263613c412a92.css">
   
 
   
@@ -384,55 +384,160 @@
 
 <p>Donec pulvinar quam felis, vel vestibulum enim laoreet vel. Proin ac lorem congue, pulvinar dui id, vulputate turpis. Vestibulum molestie nibh vel cursus bibendum. Donec nec velit varius, ornare purus ac, aliquam tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eros laoreet, finibus velit a, posuere felis. Maecenas cursus tincidunt felis, vitae pellentesque eros rhoncus varius. Nullam est odio, laoreet at malesuada sollicitudin, pharetra a lectus. Nullam augue nibh, finibus venenatis eleifend consequat, ornare vitae nisl. Mauris ac felis purus. Morbi vel turpis rhoncus, semper lorem ut, sodales velit. Vivamus ac est nec leo scelerisque facilisis ac id lacus. Quisque rutrum non ipsum ut pharetra. Cras vitae ex felis. Pellentesque sit amet erat et dolor semper pharetra.</p>
 
-<section id='scroll'>
-  <div class='scroll__text'>
-    <div class='step' data-step='a'>
-      <h1>WHEN THE POWER GOES OUT</h1>
-      <p>Life without power based on the experiences of Mirna, 59, of the Naranjito Municipality,
-        who endured without power for over six months before the lights came on.</p>
-    </div>
-    <div class='step' data-step='b'>
-      <h2>September 20, 2017</h2>
-      <h2>Hurricane Maria makes landfall in Puerto Rico, causing widespread power outages.</h2>
-    </div>
-    <div class='step' data-step='c'>
-      <h2>Day 1</h2>
-      <p>You begin to assess the damage done to your property. You still have your car. You still have your roof. You
-        know your neighbors around you might not have been so lucky.</p>
-    </div>
-    <div class='step' data-step='d'>
-      <h2>Week 1</h2>
-      <p>You're told it may take a while for your power to come back on, which is expected. You just went through this
-        with Hurricane Irma, so nothing new here. You begin using battery-powered lanterns to get around your house at
-        night. During the day, you are expected to be at work where you are assisting those in the community who cannot
-        help themselves. You have canned food saved up for your meals. You luckily have your car, which means you sit
-        in it while it charges your phone so you can receive updates from friends and family.</p>
-    </div>
-    <div class='step' data-step='e'>
-      <h2>Month 2</h2>
-      <p>Living without power has become more of a struggle. Every time you venture out to the store for batteries or a
-        simple fan, you come home empty-handed since they are sold out. You have your family in mainland U.S. send you
-        some supplies. You invest in a gas grill to heat your food, which sets you back financially since you now have
-        to buy a propane tank. You've gotten better at cooking because every time you cook too much, it must be given
-        to the dog or thrown out.</p>
-    </div>
-    <div class='step' data-step='f'>
-      <h2>Month 4</h2>
-      <p>You're still holding out on buying that expensive generator with the hopes that the power will be restored to
-        your neighborhood any day now, just like the government has told you. You continue to carry lanterns around
-        during the mornings and nights. You do, however, sleep a lot because once it's dark, there is little else to
-        do.</p>
-    </div>
-    <div class='step' data-step='g'>
-      <h2>Month 6</h2>
-      <p>You finally cave and buy a generator, costing over $1,000 plus the gas it uses. You now have power for 4 - 6
-        hours each day to complete chores, cool your home and refrigerate your food. Soon after you buy this generator,
-        the AEE restores power to your neighborhood. You finally buy a fridge and stock it with fresh food. The power
-        continues to go in and out, causing you to resort to more non-perishable foods and lanterns from time to time,
-        but it's progress.</p>
+
+
+
+
+
+
+<style>
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.bolivar {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.bolivar::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: -15px;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.yellow::after {
+    background-color: yellow;
+}
+.red::after {
+    background-color: red;
+}
+.blue::after {
+    background-color: blue;
+}
+.left {
+  left: 0;
+  text-align:right;
+}
+.right {
+  left: 50%;
+  text-align:left;
+}
+.right::after {
+  left: -20px;
+}
+.timeline-content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+  .bolivar {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .bolivar::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+  .left {
+    text-align:left;
+  }
+}
+</style>
+
+<section>
+  <h2 class="interactive__title">Venezuelan Bolívar Timeline</h2>
+  <h3>The Bolívar is an ever-changing currency</h3>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line" x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none" style="opacity: 1;">
+    <g>
+      <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5" x2="64.993" y2="1.5"></line>
+    </g>
+    <g>
+      <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5" x2="128.058" y2="1.5"></line>
+    </g>
+    <g>
+      <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5" x2="190.847" y2="1.5"></line>
+    </g>
+  </svg>
+
+<!-- Beginning of Timeline -->
+<div class="timeline">
+  <div class="bolivar left yellow">
+    <div class="timeline-content">
+      <h2>1879</h2>
+      <h3>Bolívar</h3>
+      <p>The Bolívar (Bs.) was a stable currency pegged to silver, gold, and the US dollar.</p>
     </div>
   </div>
+  <div class="bolivar right yellow">
+    <div class="timeline-content">
+      <h2>1998</h2>
+      <h3>Bolívar</h3>
+      <p>Due to economic inflation, coins and bank notes of larger values had to be issued.</p>
+    </div>
+  </div>
+  <div class="bolivar left blue">
+    <div class="timeline-content">
+      <h2>2008</h2>
+      <h3>Bolívar fuerte</h3>
+      <p>The Bolívar fuerte (BsF.) replaced the Bolívar, taking off three zeros from the currency.  Inflation remained even though the numbers were smaller.</p>
+    </div>
+  </div>
+  <div class="bolivar right blue">
+    <div class="timeline-content">
+      <h2>2016</h2>
+      <h3>Bolívar fuerte</h3>
+      <p>Economic inlfation strikes again, requiring larger coins and bank notes to be issued.</p>
+    </div>
+  </div>
+  <div class="bolivar left red">
+    <div class="timeline-content">
+      <h2>2018</h2>
+      <h3>Bolívar soberano</h3>
+      <p>The Bolívar soberano (BsS.) replaced the Bolívar fuerte and took five zeros off the currency. </p>
+    </div>
+  </div>
+  <div class="bolivar right red">
+    <div class="timeline-content">
+      <h2>2019</h2>
+      <h3>Bolívar soberano</h3>
+      <p>The Bolívar soberano is the most recent reissue but due to hyperinflation the currency is virtually worthless.</p>
+    </div>
+  </div>
+</div>
 </section>
+
+
+
 
 <p>Sed tincidunt mattis urna, ut fringilla erat lacinia sit amet. Suspendisse in efficitur metus. Mauris hendrerit nunc sit amet purus auctor, eu porttitor urna rutrum. Sed lacinia, mi vitae aliquet volutpat, ligula libero dapibus enim, id pretium magna odio non odio. Duis hendrerit nisi nec lectus porta eleifend. Duis ut venenatis ex, sit amet tempor ligula. Donec vel mi dapibus, pharetra enim quis, tincidunt arcu. Integer semper eleifend lectus, eu consectetur lacus feugiat non. Morbi quis neque et libero varius vehicula.</p>
 
@@ -651,7 +756,7 @@
 
 
 
-<script type="text/javascript" src="../js/storypageBundle.min.d2bb866024023ac83abe4869f6a2222876387089a46d72ba111b7d19d520188f.js"></script>
+<script type="text/javascript" src="../js/storypageBundle.min.8057980c2bd9ee464ba2cb56c0fb82d69bbb6e10842a65622ee9049da7e2f399.js"></script>
 
 
 
