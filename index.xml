@@ -25,10 +25,10 @@ She needed to make $33 that day to afford rent, her metro ticket and a meal for 
     
     <item>
       <title>Remembering Home</title>
-      <link>/interactive/chap1/</link>
+      <link>/photo-stories/chap1/</link>
       <pubDate>Mon, 04 Feb 2019 21:34:53 -0500</pubDate>
       
-      <guid>/interactive/chap1/</guid>
+      <guid>/photo-stories/chap1/</guid>
       <description>Hello there, let&amp;rsquo;s write some information about this picture so that when people read this, they can get a bunch of information. And then we&amp;rsquo;ll make sure they have a spanish one too!
 Hello there, let&amp;rsquo;s write some information about this picture so that when people read this, they can get a bunch of information. And then we&amp;rsquo;ll make sure they have a spanish one too!</description>
     </item>
@@ -105,6 +105,42 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
       <guid>/about/</guid>
       <description>We are a team of dedicated student-journalists type- quote here to summarize our team objective.
 This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/photo-stories/chap2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photo-stories/chap2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/photo-stories/chap3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photo-stories/chap3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/photo-stories/chap4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photo-stories/chap4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/photo-stories/chap5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photo-stories/chap5/</guid>
+      <description></description>
     </item>
     
   </channel>

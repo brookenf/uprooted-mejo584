@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>/interactive/chap1/</loc>
+    <loc>/photo-stories/chap1/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
   </url>
   
@@ -87,23 +87,23 @@
   </url>
   
   <url>
-    <loc>/interactive/</loc>
+    <loc>/local-stories/</loc>
+    <lastmod>2019-02-06T13:14:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/photo-stories/</loc>
     <lastmod>2019-02-06T13:14:40-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/interactive/"
+                href="/es/photo-stories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/interactive/"
+                href="/photo-stories/"
                 />
-  </url>
-  
-  <url>
-    <loc>/local-stories/</loc>
-    <lastmod>2019-02-06T13:14:40-05:00</lastmod>
   </url>
   
   <url>
@@ -124,6 +124,52 @@
   <url>
     <loc>/about/</loc>
     <lastmod>2019-02-04T21:36:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/photo-stories/chap2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/photo-stories/chap2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/photo-stories/chap2/"
+                />
+  </url>
+  
+  <url>
+    <loc>/photo-stories/chap3/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/photo-stories/chap3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/photo-stories/chap3/"
+                />
+  </url>
+  
+  <url>
+    <loc>/photo-stories/chap4/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/photo-stories/chap4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/photo-stories/chap4/"
+                />
+  </url>
+  
+  <url>
+    <loc>/photo-stories/chap5/</loc>
   </url>
   
   <url>

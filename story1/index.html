@@ -21,12 +21,20 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.09627eb08ccedccef1a2b120e9901de3abd9727402958937507661ed528e9025.css">
+  <link rel="stylesheet" href="../css/style.min.a89236e44dd20fba99d01ba8a66f814558dba7ce4196a07da93922eb654e060c.css">
   
 
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 
   
 
@@ -76,7 +84,7 @@
     </li>
     
     <li class="story-6">
-      <a href="../interactive/">
+      <a href="../photo-stories/">
         <span>Embracing Medellín</span>
       </a>
     </li>
@@ -230,7 +238,7 @@
     </div>
   </a>
   
-  <a class="main-menu__card story-6 " href="../interactive/">
+  <a class="main-menu__card story-6 " href="../photo-stories/">
     <img class="card__img" src="https://brookenf.github.io/uprooted-mejo584/images/cards-interactive.jpeg" alt="a picture of medellin" />
     <div class="card__text">
       <h3 class="card__title">Embracing Medellín</h3>
@@ -374,7 +382,7 @@
 
 
 <section class="interactive">
-  <div id="interactive__gov-undocumented">
+  <div class="interactive__body" id="interactive__gov-undocumented">
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
       <div class="back-button" id="passport-button">Back</div>
@@ -440,8 +448,10 @@
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>      
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>      
         </div>
         <div style="text-align:center">
           <span class="dot-passport" onclick="currentSlidePassport(1)"></span>
@@ -506,8 +516,10 @@
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>
         </div>
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
@@ -579,8 +591,10 @@
             </div>
           </div>
           <!-- slideshow buttons -->
-          <a class="prev" onclick="plusSlidesID(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
+          <div class="slideshow-buttons flex">
+            <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
+          </div>
         </div>
         <div style="text-align:center">
           <span class="dot-ID" onclick="currentSlideID(1)"></span>
@@ -597,35 +611,53 @@
     <!-- end of content for national ID -->
     <!-- front page -->
     <div class="container-body">
-      <div class="container flex" id="r-1">
-      <img class="title-svg" src="assets/main-title.svg" alt="undocumented"></div>
-      <div class="container flex" id="r-2">
-        <div class="container flex document-box" id="r-2-c-1">
-          <div class="container document-img">
+      <div class="flex-column" id="r-1">
+      <div class="interactive__header">
+        <h2 class="interactive__title">Undocumented</h2>
+        <h3 class="interactive__subhead">The Legal Limbo of Venezuelans in Colombia</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="1.653" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+      </div>
+      <div class="flex" id="r-2">
+        <div class="flex document-box" id="r-2-c-1">
+          <div class="document-img">
             <img class="passport-svg" src="assets/passport.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">Passport</div>
           </div>
         </div>
-        <div class="container flex document-box" id="r-2-c-2">
-          <div class="container flex document-img">
+        <div class="flex document-box" id="r-2-c-2">
+          <div class="flex document-img">
             <img class="pep-svg" src="assets/pep.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">PEP</div>
           </div>
         </div>
-        <div class="container flex document-box" id="r-2-c-3">
-          <div class="container flex document-img">
+        <div class="flex document-box" id="r-2-c-3">
+          <div class="flex document-img">
             <img class="cedula-svg" src="assets/cedula.svg" alt="passport">
           </div>
-          <div class="container flex document-txt">
+          <div class="flex document-txt">
             <div class="document-caption">Venezuelan ID</div>
           </div>
         </div>
       </div>
-      <div class="container flex" id="r-3">
+      <div class="flex" id="r-3">
         <div class="bottom-text">Click to explore the documentation</div>
       </div>
     </div>
@@ -784,7 +816,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
     
     
     
-    <a class="footer__card" href="../interactive/">
+    <a class="footer__card" href="../photo-stories/">
       <img class="footer__img" src="https://brookenf.github.io/uprooted-mejo584/images/cards-interactive.jpeg">
       <div class="footer__text flex">
         <h3>Embracing Medellín</h3>
@@ -881,10 +913,6 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
 </footer>
 
 
-
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
@@ -892,16 +920,9 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
 
-
-
-  
-
   
   <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
 
-
-  
-  <script src="https://unpkg.com/scrollama"></script>
   
 
 
@@ -913,7 +934,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
 
 
 
-<script type="text/javascript" src="../js/storypageBundle.min.8057980c2bd9ee464ba2cb56c0fb82d69bbb6e10842a65622ee9049da7e2f399.js"></script>
+<script type="text/javascript" src="../js/storypageBundle.min.a90835bb77491d093daa82c786f5edd1dc42261e6ed12d349924722e65d70f5d.js"></script>
 
 
 
