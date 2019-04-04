@@ -21,7 +21,7 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.92e31b29c5023d8577615263e9031944eb49535c1b35e87c95d76e98cb486bbe.css">
+  <link rel="stylesheet" href="../css/style.min.2faa3436053f6280eac5526a8986a89a92465474a383d051dd6835a55539c0bd.css">
   
 
   
@@ -291,8 +291,11 @@
   </span>
 </button>
 </nav>
-<div class="flex-column hero-image story-hero bg-cover bg-position-center"
-  style="background-image: url('../images/about.jpg')">
+<div class="flex-column hero-image story-hero bg-cover bg-position-center">
+  <video class="story-video" autoplay loop>
+       
+       <source src="../images/about.jpg" type="video/mp4">
+  </video>
   <div class="story-hero__topic">
     <p></p>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
@@ -315,7 +318,9 @@
   <h3 class="story-hero__desc"></h3>
 </div>
 
+
 <section class="about__intro flex-column">
+  <h1 class="about__heading">About Us</h1>
   
 
 
@@ -348,39 +353,26 @@ quote here to summarize our team objective.</p>
 
 <p>This is a short introduction about the team, our backgrounds and the various different skillsets we bring to the project. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
 
-  <h1 class="about__heading">Meet the Team</h1>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
-  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
-  <g>
-    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
-      x2="64.993" y2="1.5" />
-  </g>
-  <g>
-    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
-      x2="128.058" y2="1.5" />
-  </g>
-  <g>
-    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
-      x2="190.847" y2="1.5" />
-  </g>
-</svg>
+  <h2 class="about__heading">Meet the Team</h2>
 </section>
 
 <div class="container">
   <div id="team">
-    <div class="controls about__filter flex">
-      <div data-filter="all">Everyone</div>
-      <div data-filter=".photovid">Photo/Video</div>
-      <div data-filter=".rep">Reporters</div>
-      <div data-filter=".int">Interactive</div>
-      <div data-filter=".coach">Coaches</div>
-      <div data-filter=".field">Field Producers</div>
+    <div class="about__filter-container">
+      <div class="controls about__filter flex">
+        <div data-filter="all">Everyone</div>
+        <div data-filter=".photovid">Photo/Video</div>
+        <div data-filter=".rep">Reporters</div>
+        <div data-filter=".int">Interactive</div>
+        <div data-filter=".coach">Coaches</div>
+        <div data-filter=".field">Field Producers</div>
+      </div>
     </div>
 
     <div class="about__content flex">
       
-      <div class="mix about__person flex rep">
-  <img src="https://i2.wp.com/dianeadame.com/wp-content/uploads/2019/01/IMG_0098.jpg?w=408" alt="DianeAdame" />
+      <div class="mix about__person rep">
+  <img src="assets/diane-headshot.jpg" alt="DianeAdame" title="An icon that describes me: An avocado" />
   <div class="about__info flex-column">
     
     <a href="http://dianeadame.com/" target="_blank"><span class="about__name">Diane Adame</span></a>
@@ -403,36 +395,71 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hello! My name is Diane and I am a senior Reporting and Public Policy student. The thought of my next meal keeps me going and if I had to describe my life in three words, it would be bylines, headlines and deadlines.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/50330383_2228381767183069_8225561609695657984_n.jpg?_nc_cat=104&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=809169abc7eeed217355718a4a4fab55&amp;oe=5CE61203" alt="KailynAkers" />
+      <div class="mix about__person int">
+  <img src="assets/kailee-headshot.jpg" alt="KailynAkers" title="An icon that describes me: winky face" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Kailyn Akers</span>
+    <a href="http://kailynakers.com/" target="_blank"><span class="about__name">Kailyn Akers</span></a>
     
 
     <span class="about__role">Designer</span>
     <div class="about__links">
       
+      <a href="https://www.facebook.com/kailee.akers" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
-      <a href="https://www.instagram.com/kai.lee" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/kaileehere" target="_blank"><i class="fab fa-twitter"></i></a>
       
+      
+      <a href="https://www.instagram.com/kail.ee" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      <a href="https://www.linkedin.com/in/kailee-akers/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hello! I&#39;m Kailee and a senior MEJO Major. Design is my ish. If I had a time machine, I would&#39;ve done the &#34;tiny kitchen&#34; videos first.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44393547_10217245574275408_8193586325501247488_n.jpg?_nc_cat=108&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=cd9b5f70748860453ab673be5c73172c&amp;oe=5D1DF79D" alt="AbbyCantrell" />
+      <div class="mix about__person photovid">
+  <img src="assets/jason-headshot.jpg" alt="JasonArmond" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <a href="https://www.jasonarmondphoto.com/" target="_blank"><span class="about__name">Jason Armond</span></a>
+    
+
+    <span class="about__role">Videographer</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/jasonarmond" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/jasonarmond" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://www.instagram.com/jasonarmondphotography/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      <a href="https://www.linkedin.com/in/jasonarmond/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>Hello, I&#39;m Jason Armond a senior studying media and journalism, with an emphasis in photo and video journalism and graphic design. Creating compelling visual content that is engaging and rooted in storytelling is what drives me. Fun fact about me is I have never had a pet. When I finally get a pet, it will be an English Bulldog.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person photovid">
+  <img src="assets/abby-headshot.jpg" alt="AbbyCantrell" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
     <a href="abbyrcantrell.com" target="_blank"><span class="about__name">Abby Cantrell</span></a>
@@ -449,20 +476,47 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Abby, a junior Journalism and Politcal Science double major. I love dogs, naps and pizza.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/27858459_594885550862267_668154742617364354_n.jpg?_nc_cat=107&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=6c135262a476191a463223bd9321f9b3&amp;oe=5D22D75B" alt="BryanCereijo" />
+      <div class="mix about__person coach">
+  <img src="assets/chris-headshot.jpg" alt="ChrisCarmichael" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
-    <span class="about__name">Bryan Cereijo</span>
+    <a href="http://www.jchriscarmichael.com/" target="_blank"><span class="about__name">Chris Carmichael</span></a>
+    
+
+    <span class="about__role">Photo/Video Coach</span>
+    <div class="about__links">
+      
+      
+      <a href="https://twitter.com/ChrisCarmichael" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://www.instagram.com/jchriscarmichael/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>Waiting for my bio...</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person photovid">
+  <img src="assets/bryan-headshot.jpg" alt="BryanCereijo" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <a href="bryancereijo.com" target="_blank"><span class="about__name">Bryan Cereijo</span></a>
     
 
     <span class="about__role">Videographer</span>
     <div class="about__links">
+      
+      <a href="https://www.facebook.com/CereijoB" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
       <a href="https://twitter.com/BryanCereijo" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -471,16 +525,18 @@ quote here to summarize our team objective.</p>
       <a href="https://instagram.com/BryanCereijo" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
+      <a href="https://www.linkedin.com/in/bryancereijo/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Bryan Cereijo, a Visual Communications graduate student. I am a Cuban-American visual storyteller from Miami, FL. I am specifically interested in narratives that relate to sports and culture.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/31390023_2049757128385743_1825989473066763137_n.jpg?_nc_cat=111&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=f606ac6cdbf53ae3a99cd8636f70a0e2&amp;oe=5D24BD95" alt="NashConsing" />
+      <div class="mix about__person photovid">
+  <img src="assets/nash-headshot.jpg" alt="NashConsing" title="An icon that describes me: Jerome (my dogs)" />
   <div class="about__info flex-column">
     
     <a href="https://www.nashconsing.com/" target="_blank"><span class="about__name">Nash Consing</span></a>
@@ -489,7 +545,7 @@ quote here to summarize our team objective.</p>
     <span class="about__role">Photographer</span>
     <div class="about__links">
       
-      <a href="https://www.facebook.com/consingprod" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/nashconsing" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
       <a href="https://twitter.com/nashconsing" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -503,13 +559,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m a sophomore MEJO and Communications double major, Frank Ocean stan and a cuddler of all dogs. Shout out to my goodboys Xavier, Yoda and Jerome.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex rep">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/38854596_1874352829278099_2644837820039954432_n.jpg?_nc_cat=101&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=4e94d02602bf9fb87fb9d7b3cc12c2ec&amp;oe=5CEF32D8" alt="BrooklynnCooper" />
+      <div class="mix about__person rep">
+  <img src="assets/brooklynn-headshot.jpg" alt="BrooklynnCooper" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
     <span class="about__name">Brooklynn Cooper</span>
@@ -530,13 +586,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Brooklynn, a senior studying journalism with a concentration in reporting and Hispanic Linguistics. I&#39;m the 6-year reigning president of my personal Justin Bieber stan club and also an Oreo enthusiast.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://media.licdn.com/dms/image/C4D03AQHiD4UZwwue1A/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=bSfTNsGkJCwepJKlPyIhwebZPr0A-nekJzDksXchCk4" alt="LandonCooper" />
+      <div class="mix about__person photovid">
+  <img src="assets/landon-headshot.jpg" alt="LandonCooper" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
     <a href="http://landoncoopermedia.com" target="_blank"><span class="about__name">Landon Cooper</span></a>
@@ -545,6 +601,10 @@ quote here to summarize our team objective.</p>
     <span class="about__role">Videographer</span>
     <div class="about__links">
       
+      <a href="https://www.facebook.com/landon.akeno" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/landocoop22" target="_blank"><i class="fab fa-twitter"></i></a>
       
       
       <a href="https://www.instagram.com/landoncoopermedia/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -555,13 +615,61 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hey everybody, I&#39;m Landon and I&#39;m a photographer and videographer. I have no children but I&#39;m sublime at Dad jokes. I love long walks on the beach, taking portraits and telling stories.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/17342945_678781162305636_5655537990280682503_n.jpg?_nc_cat=111&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=b0d0f40945b5ea57fdec575fa0100cee&amp;oe=5D1765D2" alt="SallyDillon" />
+      <div class="mix about__person coach">
+  <img src="assets/pat-headshot.jpg" alt="PaulCuadros" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Paul Cuadros</span>
+    
+
+    <span class="about__role">Reporting Coach</span>
+    <div class="about__links">
+      
+      
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>Waiting for my bio...</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person coach">
+  <img src="assets/pat-headshot.jpg" alt="PatDavison" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Pat Davison</span>
+    
+
+    <span class="about__role">Executive Producer, Photo/Video Coach</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/patrickdrewdavison" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      
+      <a href="https://www.instagram.com/patdavison/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      <a href="https://www.linkedin.com/in/patrickdavison/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>Waiting for my bio...</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person int">
+  <img src="assets/sally-headshot.jpg" alt="SallyDillon" title="An icon that describes me: an orange" />
   <div class="about__info flex-column">
     
     <a href="https://dillons789.wixsite.com/portfolio" target="_blank"><span class="about__name">Sally Dillon</span></a>
@@ -569,8 +677,6 @@ quote here to summarize our team objective.</p>
 
     <span class="about__role">Designer</span>
     <div class="about__links">
-      
-      <a href="https://www.facebook.com/sally.fdillon" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
       
@@ -582,16 +688,16 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Sally, a Graphic Design and French major. I&#39;m a senior but more of a senior citizen at heart. I am a paper hoarder and my favorite color is butter yellow.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/24172880_1678847852168216_5203791197314264401_o.jpg?_nc_cat=109&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=d84ead3f3cecd7e0f9749e4fd3fac2be&amp;oe=5CE0FF50" alt="CatieDull" />
+      <div class="mix about__person photovid">
+  <img src="assets/catie-headshot.jpg" alt="CatieDull" title="An icon that describes me: an arrow (i swear im not basic)" />
   <div class="about__info flex-column">
     
-    <a href="http://dullcatie.com/" target="_blank"><span class="about__name">Catie Dull</span></a>
+    <a href="http://www.dullcatie.com/" target="_blank"><span class="about__name">Catie Dull</span></a>
     
 
     <span class="about__role">Photographer</span>
@@ -604,18 +710,18 @@ quote here to summarize our team objective.</p>
       <a href="https://www.instagram.com/catiedull/" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
-      <a href="https://www.linkedin.com/in/catie-dull-56377b15b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.linkedin.com/in/catie-dull-unc19" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Catie, a senior photo &amp; video journalist. I love my fat cat and my home at Wrightsville Beach. I&#39;m a weirdo who loves to travel with my camera around my neck!</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://media.licdn.com/dms/image/C5603AQEzcJCP03CuEQ/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=ynSZCCpakC_zMLi95YU3rISWviViSmTB3TLgJvuByNI" alt="AshtonEleazer" />
+      <div class="mix about__person photovid">
+  <img src="assets/ashton-headshot.jpg" alt="AshtonEleazer" title="An icon that describes me: The map emoji -- https://emojipedia.org/apple/ios-10.2/world-map/" />
   <div class="about__info flex-column">
     
     <a href="https://www.ashtoneleazer.com/" target="_blank"><span class="about__name">Ashton Eleazer</span></a>
@@ -636,13 +742,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Ashton, studying Photo and Video Journalism and Dramatic Art. I love taking analog photographs, journaling for my future memoir and going on spontaneous trips everywhere from the local farmer&#39;s market to the Himalayas.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44896708_2145928272098168_5145241997358923776_n.jpg?_nc_cat=109&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=7136ff8a0fb4479aadb432ace7b31fb8&amp;oe=5D1C8983" alt="BrookeFisher" />
+      <div class="mix about__person int">
+  <img src="assets/brooke-headshot.jpg" alt="BrookeFisher" title="An icon that describes me: an owl" />
   <div class="about__info flex-column">
     
     <a href="http://brookesnook.us" target="_blank"><span class="about__name">Brooke Fisher</span></a>
@@ -667,59 +773,69 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I’m Brooke, senior Interactive Multimedia major. When I’m not coding, you can find me writing, cooking or cheering on the UNC basketball team from the band section.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/28577772_1735368613191138_3785315761960322135_n.jpg?_nc_cat=109&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=c8f4400840bb6ff788647a098fd82406&amp;oe=5CE16B76" alt="HaleyFrance" />
+      <div class="mix about__person photovid">
+  <img src="assets/haley-headshot.jpg" alt="HaleyFrance" title="An icon that describes me: a converse" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Haley France</span>
+    <a href="http://www.haleyfrance.com/portfolio/" target="_blank"><span class="about__name">Haley France</span></a>
     
 
     <span class="about__role">Videographer</span>
     <div class="about__links">
+      
+      <a href="https://www.facebook.com/haley.france.5" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
       
       <a href="https://www.instagram.com/haley.france" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
+      <a href="https://www.linkedin.com/in/haley-france/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>My name is Haley, and I&#39;m studying Media and Journalism with a Social and Economic Justice minor. I love DJ-ing on our student radio station and am a pro at making annoying puns.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/51182363_10216810966240153_3283584385638465536_n.jpg?_nc_cat=100&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=71c2897f1e0b5e2008cae40b38e9fab1&amp;oe=5CEADD24" alt="TenleyGarrett" />
+      <div class="mix about__person photovid">
+  <img src="assets/tenley-headshot.jpg" alt="TenleyGarrett" title="An icon that describes me: I just want a roman number for &#39;10,&#39; aka a super bad-ass looking &#39;X&#39;" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Tenley Garrett</span>
+    <a href="http://www.tenleymae.com/" target="_blank"><span class="about__name">Tenley Garrett</span></a>
     
 
     <span class="about__role">Videographer</span>
     <div class="about__links">
       
+      <a href="https://www.facebook.com/tenleymae" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/10outoftenley" target="_blank"><i class="fab fa-twitter"></i></a>
       
       
       <a href="https://www.instagram.com/10outoftenley" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
+      <a href="https://www.linkedin.com/in/tenley-garrett-51a146114/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m a senior Visual Communication major who believes everyone should take time off from school before graduating. Seriously. Just do it. I enjoy solo trips to concerts, napping in the middle of the day and being vulnerable with people.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/49804355_1231460997002041_2550487881151938560_n.jpg?_nc_cat=100&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=2082251815962ec554d3c5d0d47d3fef&amp;oe=5D1FD104" alt="XiaokeJi" />
+      <div class="mix about__person int">
+  <img src="assets/arya-headshot.jpg" alt="XiaokeJi" title="An icon that describes me: a really cool eye icon" />
   <div class="about__info flex-column">
     
     <a href="https://www.aryaswanie.com/" target="_blank"><span class="about__name">Xiaoke Ji</span></a>
@@ -742,16 +858,16 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Xiaoke, a senior Media Design student. My nickname is Arya because she&#39;s my alter ego in Game of Thrones and also because only Mandarin-speaking people know how to pronouce my name. My favorite job field is animation &amp; game design.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://media.licdn.com/dms/image/C4E03AQExnwNDmoVGKg/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=kqk5qFJg532LGeTkLauYhSGHeEqY6rkgGumU-lXOO5c" alt="AlexKormann" />
+      <div class="mix about__person photovid">
+  <img src="assets/alex-headshot.jpg" alt="AlexKormann" title="An icon that describes me: lightsaber" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Alex Kormann</span>
+    <a href="https://www.alexkormannphoto.com/" target="_blank"><span class="about__name">Alex Kormann</span></a>
     
 
     <span class="about__role">Lead Photographer</span>
@@ -764,16 +880,18 @@ quote here to summarize our team objective.</p>
       <a href="https://www.instagram.com/alexkormann12" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
+      <a href="https://www.linkedin.com/in/alex-kormann/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hey! I&#39;m Alex, a senior Photojournalism major and History minor from New Jersey. I love Star Wars, spicy food and dogs. All my work is in memory of my father, Russ.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/22815322_1578531932194857_6172893524707468977_n.jpg?_nc_cat=108&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=f99c2379d2e3d091941ad3692799f55f&amp;oe=5D17FF7D" alt="LyricLin" />
+      <div class="mix about__person int">
+  <img src="assets/lyric-headshot.jpg" alt="LyricLin" title="An icon that describes me: sunflower" />
   <div class="about__info flex-column">
     
     <a href="http://lyriclin.com/" target="_blank"><span class="about__name">Lyric Lin</span></a>
@@ -794,13 +912,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hi! I&#39;m Lyric, a junior Advertising and Public Relations major. I consider myself a “Type A Granola.” Free-spirited but on a schedule. Lover of pups, the color yellow, and cotton candy sunsets.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://media.licdn.com/dms/image/C4E03AQETqeJZozWHaQ/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=rdUL3luQx7L1C1LjoYpcrZwVSwzNvSrpyBY-LelymYo" alt="PattyMatos" />
+      <div class="mix about__person int">
+  <img src="assets/patty-headshot.jpg" alt="PattyMatos" title="An icon that describes me: lightning bolt" />
   <div class="about__info flex-column">
     
     <a href="http://thepattymatos.com" target="_blank"><span class="about__name">Patty Matos</span></a>
@@ -821,13 +939,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Patty, a senior Public Relations and Social and Economic Justice student from Caracas. I&#39;m the team&#39;s resident tuitera, a relentless Scorpio, and an avid lover of pop music. Bring me crunchy snacks, please.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex rep">
-  <img src="https://media.licdn.com/dms/image/C4D03AQFygB-ue00nTA/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=v7ZPaVQYSiGuBOHa0UiVmd8OG5DyHfBi5J5LGk32HJc" alt="PatsyMontesinos" />
+      <div class="mix about__person rep">
+  <img src="assets/patsy-headshot.jpg" alt="PatsyMontesinos" title="An icon that describes me: Horse" />
   <div class="about__info flex-column">
     
     <a href="http://www.patsymaldonado.com/" target="_blank"><span class="about__name">Patsy Montesinos</span></a>
@@ -835,8 +953,6 @@ quote here to summarize our team objective.</p>
 
     <span class="about__role">Reporter</span>
     <div class="about__links">
-      
-      <a href="https://www.facebook.com/patsy.mdo.7" target="_blank"><i class="fab fa-facebook-f"></i></a>
       
       
       <a href="https://twitter.com/MontesinosPatsy" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -850,39 +966,45 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Patsy, the girl who straddles the borders but also loves the mix of her culturas. I am a Media and Journalism major with a minor in Latino/a Studies. Painter, dancer, soccer player and Rayo&#39;s (AKA my horse) mom.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/36176489_1094210897383981_3953160625919623168_n.jpg?_nc_cat=108&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=012d3710f85c5e7900b5721600082be8&amp;oe=5CE1EE61" alt="PeggyMullin" />
+      <div class="mix about__person photovid">
+  <img src="assets/peggy-headshot.jpg" alt="PeggyMullin" title="An icon that describes me: a lil mountain" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Peggy Mullin</span>
+    <a href="http://www.peggymullin.com/" target="_blank"><span class="about__name">Peggy Mullin</span></a>
     
 
     <span class="about__role">Videographer</span>
     <div class="about__links">
       
+      <a href="https://www.facebook.com/peggy.mullin.5" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/pegasaurus_rexx" target="_blank"><i class="fab fa-twitter"></i></a>
       
       
       <a href="https://www.instagram.com/pkm201" target="_blank"><i class="fab fa-instagram"></i></a>
       
       
+      <a href="www.linkedin.com/in/peggy-mullin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hey! I&#39;m Peggy, a senior Environmental Science and Photo/Video nerd. I geek out over many things, including (but not limited to) algae, music, dogs, and the unbelievable power of storytelling.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex rep">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/45046247_1978493055553839_1250272749461438464_n.jpg?_nc_cat=105&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=66af121cf2e987e835b02590b3cb328e&amp;oe=5CE4393B" alt="SaraPequeño" />
+      <div class="mix about__person rep">
+  <img src="assets/sara-headshot.jpg" alt="SaraPequeño" title="An icon that describes me: a cat !! (if it matters i&#39;d prefer a black cat)" />
   <div class="about__info flex-column">
     
-    <span class="about__name">Sara Pequeño</span>
+    <a href="http://sarapequeno.com" target="_blank"><span class="about__name">Sara Pequeño</span></a>
     
 
     <span class="about__role">Reporter</span>
@@ -898,13 +1020,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>My name is Sara and I&#39;m a senior Reporting and Political Science student. Yes, my last name does mean &#34;small&#34; in Spanish. Yes, I am 4&#39;11&#34;.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex coach">
-  <img src="https://media.licdn.com/dms/image/C4E03AQGl6Ey3Gdytlg/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=ZhrgDVrNm1ZyuKzBJrtwncnjxeUlL3e9NJ5MMajVe40" alt="TamaraRice" />
+      <div class="mix about__person coach">
+  <img src="assets/tamara-headshot.jpg" alt="TamaraRice" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
     <span class="about__name">Tamara Rice</span>
@@ -923,13 +1045,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Tamara, the interactive coach for Uprooted. I love finding ways to tell stories in visual and interactive ways and I&#39;m always inspired by the energy and committment my students bring to their work.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex photovid">
-  <img src="https://media.licdn.com/dms/image/C5603AQEZuwR1hvTGGQ/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=d_ZDGv-ViWkoePUA1NSI412DgbsEW8sZgjWH2elPPNE" alt="ZayrhaRodriguez" />
+      <div class="mix about__person photovid">
+  <img src="assets/zayrha-headshot.jpg" alt="ZayrhaRodriguez" title="An icon that describes me: french fries = papitas" />
   <div class="about__info flex-column">
     
     <a href="http://zayrharodriguez.com/" target="_blank"><span class="about__name">Zayrha Rodriguez</span></a>
@@ -950,13 +1072,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I was born in Bogotá, Colombia, and when I was 14 I moved to Miami. I&#39;m currently a junior Photo and Video Journalism major with a History minor. In my free time, I like to dance with Que Rico, pet all the doggos and eat papitas.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://media.licdn.com/dms/image/C4E03AQHMKpzFEfyXPA/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=LiAag_5gJl-3VBXTKCr5Fe6cUruvytp4_juiUE4FUVw" alt="CarlosSalas" />
+      <div class="mix about__person int">
+  <img src="assets/carlos-headshot.jpg" alt="CarlosSalas" title="An icon that describes me: a lil ghost" />
   <div class="about__info flex-column">
     
     <a href="http://www.theAbsurd.co" target="_blank"><span class="about__name">Carlos Salas</span></a>
@@ -973,13 +1095,36 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>Hi I&#39;m Carlos. I&#39;m a UX/UI designer born in San Cristóbal, Venezuela and raised in North Carolina. When I&#39;m not making cool things for the interwebs I&#39;m probably just cuddling with my dog, Jagger. My role model is Danny Phantom.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex int">
-  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/45830250_2348700565144315_5181753033305882624_o.jpg?_nc_cat=111&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=90ee61a9f6779912c3dd291282ebc0c6&amp;oe=5D21ACF2" alt="AmyTownsend" />
+      <div class="mix about__person coach">
+  <img src="assets/pat-headshot.jpg" alt="KateSheppard" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Kate Sheppard</span>
+    
+
+    <span class="about__role">Reporting Coach</span>
+    <div class="about__links">
+      
+      
+      <a href="https://twitter.com/kate_sheppard" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>waiting for my bio...</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person int">
+  <img src="assets/amy-headshot.jpg" alt="AmyTownsend" title="An icon that describes me: lime" />
   <div class="about__info flex-column">
     
     <a href="http://amygtownsend.com" target="_blank"><span class="about__name">Amy Townsend</span></a>
@@ -1004,13 +1149,13 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I&#39;m Amy, a front-end web developer studying Interactive Multimedia and Information Science. Dancer, singer and lover of puzzles/games, blankets, my cat and Avatar: The Last Airbender.</p>
     </div>
   </div>
 </div>
       
-      <div class="mix about__person flex rep">
-  <img src="https://media.licdn.com/dms/image/C5603AQFVoQ6edikatw/profile-displayphoto-shrink_800_800/0?e=1556755200&amp;v=beta&amp;t=VhCiCibQDVEOooN1qN4luLW63xsXJeXW5b9uJmIt7k8" alt="Maria ElenaVizcaino" />
+      <div class="mix about__person rep">
+  <img src="assets/maria-headshot.jpg" alt="Maria ElenaVizcaino" title="An icon that describes me: " />
   <div class="about__info flex-column">
     
     <a href="http://www.mariaevizcaino.com/" target="_blank"><span class="about__name">Maria Elena Vizcaino</span></a>
@@ -1029,7 +1174,165 @@ quote here to summarize our team objective.</p>
       
     </div>
     <div class="about__bio">
-      <p>In this paragraph will be a short description of each person based on what they write themselves</p>
+      <p>I am a journalist born and raised in Caracas, Venezuela. Sophomore year of high school I moved to Miami, Florida, and now I’ve traded the beach and the heat for the mountains and the chilly breeze of North Carolina.  If I&#39;m not asking questions, find me eating arepas or compulsively cleaning my house.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person photovid">
+  <img src="assets/andie-headshot.jpg" alt="AndieRea" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <a href="AndieRea.com" target="_blank"><span class="about__name">Andie Rea</span></a>
+    
+
+    <span class="about__role">Videographer</span>
+    <div class="about__links">
+      
+      
+      
+      <a href="https://www.instagram.com/andierea/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      <a href="https://www.linkedin.com/in/andie-rea-6197a5150" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>I am a visual media creator inspired by the power of story to shape ideas and create change. I enjoy adventures with my family and trying new foods.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person field">
+  <img src="assets/andrea-headshot.jpg" alt="AndreaOrozco Sáenz" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Andrea Orozco Sáenz</span>
+    
+
+    <span class="about__role">Photographer, Translator</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/andrea10saenz" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/@andrea95orozco" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://instagram.com/andrea95orozco" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>I&#39;m Andrea, a journalism student with a focus on photography and video. I also play rugby and work as a researcher for a TV program.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person field">
+  <img src="assets/martin-headshot.jpg" alt="MartinVillaneda Gomez" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <a href="https://www.instagram.com/martin_in_raw/" target="_blank"><span class="about__name">Martin Villaneda Gomez</span></a>
+    
+
+    <span class="about__role">Photographer, Translator and Guide</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/martin.villaneda.5" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/martinvillaneda?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://www.instagram.com/martinvillanedag/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      <a href="https://ec.linkedin.com/in/martin-villaneda-454b80a8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>I&#39;m Martín Villaneda, Colombian student of Journalism at Universidad Pontificia Bolivariana in Medellín and a photojournalist. I speak four languages: English, French, Italian and Spanish, my native language. I&#39;m 20 years old, and someday I&#39;ll win a World Press Photography award.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person field">
+  <img src="assets/juan-headshot.jpg" alt="Juan DavidOchoa Jiménez" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Juan David Ochoa Jiménez</span>
+    
+
+    <span class="about__role">Translator, Guide, Reporter</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/ochoajz" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/Sr_Ochoa8a" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://www.instagram.com/sr.ochoa/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>Hey there! I&#39;m Juan, a Social Communication student. I&#39;m 20 years old and I&#39;m a politics and history lover. I have three beautiful and fluffy cats (if I had a bigger house, I would have more!) I like to learn about EVERYTHING, that&#39;s why I enjoy meeting people from other countries. I also like dance, play video games and walk through the city.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person field">
+  <img src="assets/laura-headshot.jpg" alt="LauraTrujillo Arango" title="An icon that describes me: Pepe (my english bulldog, he&#39;s old)" />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Laura Trujillo Arango</span>
+    
+
+    <span class="about__role">Translator, Guide, Reporter</span>
+    <div class="about__links">
+      
+      <a href="https://www.facebook.com/laura.trujilloarango" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      
+      
+      <a href="https://twitter.com/LauraTrujilloAr" target="_blank"><i class="fab fa-twitter"></i></a>
+      
+      
+      <a href="https://www.instagram.com/lauratrua/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p>My name is Laura, I&#39;m a first year Social Comunication and Journalism student at UPB. I really love dogs and I&#39;m 18 yers old (until April, at least). Apart from English and Spanish, I also speak Portuguese. I really love and enjoy writing, reading and learning new things on a daily basis.</p>
+    </div>
+  </div>
+</div>
+      
+      <div class="mix about__person field">
+  <img src="assets/lauragarcia-headshot.jpg" alt="Laura AndreaGarcía Giraldo" title="An icon that describes me: " />
+  <div class="about__info flex-column">
+    
+    <span class="about__name">Laura Andrea García Giraldo</span>
+    
+
+    <span class="about__role">Translator, Guide, Reporter</span>
+    <div class="about__links">
+      
+      
+      
+      <a href="https://www.instagram.com/plie_releve_chasse/" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      
+      
+    </div>
+    <div class="about__bio">
+      <p></p>
     </div>
   </div>
 </div>
@@ -1037,10 +1340,6 @@ quote here to summarize our team objective.</p>
     </div>
   </div>
 </div>
-
-<section class="about__thanks">
-  <h1 class="about__heading">Special Thanks</h1>
-</section>
 
 <footer class="flex-column">
   <div class="footer-stories">

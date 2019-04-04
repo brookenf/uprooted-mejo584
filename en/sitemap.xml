@@ -169,10 +169,6 @@
   </url>
   
   <url>
-    <loc>/photo-stories/chap5/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
