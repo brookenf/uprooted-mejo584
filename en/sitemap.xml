@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>/photo-stories/chap2/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/photo-stories/chap2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/photo-stories/chap2/"
+                />
+  </url>
+  
+  <url>
     <loc>/photo-stories/chap1/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
   </url>
@@ -124,20 +139,6 @@
   <url>
     <loc>/about/</loc>
     <lastmod>2019-02-04T21:36:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/photo-stories/chap2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/photo-stories/chap2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/photo-stories/chap2/"
-                />
   </url>
   
   <url>
