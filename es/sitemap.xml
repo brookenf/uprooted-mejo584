@@ -78,21 +78,6 @@
   </url>
   
   <url>
-    <loc>/es/photo-stories/</loc>
-    <lastmod>2019-02-06T13:14:40-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/photo-stories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/photo-stories/"
-                />
-  </url>
-  
-  <url>
     <loc>/es/home-about/</loc>
     <lastmod>2019-03-25T09:35:17-04:00</lastmod>
     <xhtml:link
@@ -108,44 +93,44 @@
   </url>
   
   <url>
-    <loc>/es/photo-stories/chap2/</loc>
+    <loc>/es/a-family-together/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/photo-stories/chap2/"
+                href="/a-family-together/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/photo-stories/chap2/"
+                href="/es/a-family-together/"
                 />
   </url>
   
   <url>
-    <loc>/es/photo-stories/chap3/</loc>
+    <loc>/es/a-new-home/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/photo-stories/chap3/"
+                href="/a-new-home/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/photo-stories/chap3/"
+                href="/es/a-new-home/"
                 />
   </url>
   
   <url>
-    <loc>/es/photo-stories/chap4/</loc>
+    <loc>/es/making-it-in-medellin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/photo-stories/chap4/"
+                href="/making-it-in-medellin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/photo-stories/chap4/"
+                href="/es/making-it-in-medellin/"
                 />
   </url>
   
