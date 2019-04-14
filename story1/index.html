@@ -32,7 +32,7 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.02762d834cab56f6ac6887bd996618a35cfd653dbafe7cbb7055cf81a71b32db.css">
+  <link rel="stylesheet" href="../css/style.min.20515d8b09da5b909e8f49168a05abdcd7de8b9d975f2a94d58e8c795a3ce543.css">
   
 
   
@@ -71,7 +71,7 @@
     
     <li class="story-2">
       <a href="../story2/">
-        <span>This is the second story description</span>
+        <span>A soccer team finds a home away from home.</span>
       </a>
     </li>
     
@@ -169,7 +169,7 @@
       x2="190.847" y2="1.5" />
   </g>
 </svg>
-      <p class="card__desc">This is the second story description</p>
+      <p class="card__desc">A soccer team finds a home away from home.</p>
     </div>
   </a>
   
@@ -470,7 +470,7 @@
   <div class="interactive__body" id="interactive__gov-undocumented">
     <!-- content for passport-->
     <div class="information-body" id="passport-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="passport-body-top">
         <div class="back-button" id="passport-button">Back</div>
         <div class="information-title">Passport</div>
       </div>
@@ -516,8 +516,8 @@
             </div>
           </div>
           <div class="mySlides-passport fade">
-            <div class="slide-image">
-              <img class="slide-img-stats slide-img slide-img-expiration" src="assets/expiration date.svg" alt="stats">
+            <div class="slide-image slide-img-expiration">
+              <img class="slide-img-stats slide-img " src="assets/expiration date.svg" alt="stats">
               <div class="slide-txt">
                 <p>Passports are becoming nearly impossible to get due to the lack of resources to make the documents,
                   unaffordable prices and administrative inefficiencies. </p>
@@ -530,7 +530,7 @@
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="passport-slide-buttons">
             <a class="prev" onclick="plusSlidesPassport(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesPassport(1)">&#10095;</a>
           </div>
@@ -543,27 +543,26 @@
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="passport-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
     <!-- end of content for passport -->
     <!-- content for pep-->
     <div class="information-body" id="PEP-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="pep-body-top">
         <div class="back-button" id="PEP-button">Back</div>
-        <div class="information-title border-blue">PEP - "Special Stay Permit"</div>
+        <div class="information-title border-blue">PEP</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
         <div class="slideshow-container">
           <!-- first slide -->
           <div class="mySlides fade">
-            <div class="slide-image">
+            <div class="slide-image slide-image-pep">
               <img class="slide-img-pep slide-img" src="assets/pep.svg" alt="pep">
-              <div class="slide-txt2">
-                PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of Permanence. It is a
-                special permit granted to Venezuelans who seek refuge in Colombia.
+              <div class="slide-txt">
+                <p>PEP is short for <em>Permiso Especial de Permanencia</em>, which is Spanish for Special Permit of Permanence. It is a special permit granted to Venezuelans who seek refuge in Colombia.</p>
               </div>
             </div>
           </div>
@@ -588,16 +587,16 @@
             </div>
           </div>
           <div class="mySlides fade">
-            <div class="slide-image">
+            <div class="slide-image ">
               <img class="slide-img-stats slide-img" src="assets/stats.svg" alt="stats">
-              <div class="slide-txt2">
+              <div class="slide-txt">
                 <p>As of December 2018, <strong>1,174,743</strong> Venezuelans have migrated to Colombia. Only <strong>45.6%</strong> of them have obtained the PEP.</p>
                 <p>In total, more half of the Venezuelans in Colombia are undocumented.</p>
               </div>
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="pep-slide-buttons">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
@@ -610,23 +609,23 @@
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="pep-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
     <!-- end of content for pep -->
     <!-- contont for National id -->
     <div class="information-body" id="ID-body">
-      <div class="information-body-r1">
+      <div class="information-body-r1" id="ID-body-top">
         <div class="back-button" id="ID-button">Back</div>
-        <div class="information-title border-red">Venezuelan ID Card</div>
+        <div class="information-title border-red">Venezuelan ID</div>
       </div>
       <!-- slideshow goes here -->
       <div class="information-body-r2">
         <div class="slideshow-container">
           <!-- first slide -->
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image slide-image-ID flex">
               <img class="slide-img-ID slide-img" src="assets/cedula.svg" alt="pep">
               <div class="slide-txt2">
                 <p>A Venezuelan ID Card, also known as a <em>Cédula de Identidad</em>, is the national identity card Venezuela’s
@@ -637,18 +636,18 @@
           </div>
           <!-- second slide -->
           <div class="mySlides-ID fade">
-            <div class="slide-image">
-              <img class="slide-img-calendar slide-img" src="assets/cedule-groceries.svg" alt="calendar">
+            <div class="slide-image flex">
+              <img class="slide-img-calendar slide-img " src="assets/cedule-groceries.svg" alt="calendar">
               <div class="slide-txt2">
                 <p>To obtain a cédula, Venezuelans must be at least nine years old and provide an original birth
                   certificate.
                 <p>It’s difficult to go a day without needing a cédula. They are used to make purchases, vote, travel domestically and internationally and stay in hotels. </p>
-                <p>Cédulas contain a number that is used to identify every citizen.</p>
+                <p>Cédulas contain a number that is used to identify every citizen. </p>
               </div>
             </div>
           </div>
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/printer.svg" alt="document/time">
               <div class="slide-txt2">
                 <p>It’s becoming almost impossible to obtain a cédula due to the shortage of resources to make the documents. Most offices do not have the printers needed to print the cédula, and some offices are asking citizens to bring their own laminator.</p>
@@ -657,7 +656,7 @@
             </div>
           </div>
           <div class="mySlides-ID fade">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-stats slide-img" src="assets/carnet-de-la-patria.svg" alt="stats">
               <div class="slide-txt2">
                 <p>Starting in December 2016, President Nicolás Maduro rolled out a new identity card called the <em>Carnet de la
@@ -672,7 +671,7 @@
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="ID-slide-buttons">
             <a class="prev" onclick="plusSlidesID(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesID(1)">&#10095;</a>
           </div>
@@ -685,7 +684,7 @@
         </div>
       </div>
       <!-- bottom caption -->
-      <div class="information-body-r3 bottom-text">
+      <div class="information-body-r3 bottom-text" id="ID-body-bottom">
         Click the arrows or the dots to navigate
       </div>
     </div>
@@ -818,7 +817,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
         </div>
       </div>
       <!-- slideshow goes here -->
-        <div class="slideshow-container">
+        <div class="slideshow-container" id="birthright-body-top">
           <!-- first slide -->
           <div class="mySlides-birthright">
               <div class=" flourish flourish-embed flourish-chart" data-src="visualisation/259647"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -828,7 +827,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
               <div class="flourish flourish-embed flourish-chart" data-src="visualisation/248457"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-doc slide-img" src="assets/colombia.svg" alt="Colombia">
               <div class="slide-txt">
                 <p>Colombia has “conditional” birthright citizenship. To obtain Colombian citizenship at birth, one must have at least one parent that is a Colombian citizen or a Colombian legal resident.</p>
@@ -837,7 +836,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
             </div>
           </div>
           <div class="mySlides-birthright">
-            <div class="slide-image">
+            <div class="slide-image flex">
               <img class="slide-img-stats slide-img slide-img-expiration" src="assets/baby.svg" alt="Baby">
               <div class="slide-txt">
                 <p>In order for citizenship to be granted to a baby born in Colombia by Venezuelan parents, one of the parents must have either documentation of residency or a special stay permit, known as the PEP.</p>
@@ -846,7 +845,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
             </div>
           </div>
           <!-- slideshow buttons -->
-          <div class="slideshow-buttons flex">
+          <div class="slideshow-buttons flex" id="birthright-slide-buttons">
             <a class="prev" onclick="plusSlidesBirthright(-1)">&#10094;</a>
             <a class="next" onclick="plusSlidesBirthright(1)">&#10095;</a>
           </div>
@@ -858,7 +857,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
           <span class="dot-Birthright" onclick="currentSlideBirthright(4)"></span>
         </div>
       <!-- bottom caption -->
-      <div class="bottom-text">
+      <div class="bottom-text" id="birthright-body-bottom">
         Click the arrows or the dots to navigate.
       </div>
     <!-- end of content for passport -->
@@ -1073,7 +1072,7 @@ There was bread, buñuelos, pan de bono, pastelitos, empanadas, and she could af
 
 
 
-<script type="text/javascript" src="../js/govBundle.min.38aec2369aeea57dfdbc56c14a1a03a48d726a764e0e0ee7415862fe0523062c.js"></script>
+<script type="text/javascript" src="../js/govBundle.min.ab774727a95a6bc48a7c60bb87741799656cd8158ad55bd6ccdf27445f64ae23.js"></script>
 
 
 
