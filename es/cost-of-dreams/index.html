@@ -32,7 +32,7 @@
   
   
   
-  <link rel="stylesheet" href="../../css/style.min.20515d8b09da5b909e8f49168a05abdcd7de8b9d975f2a94d58e8c795a3ce543.css">
+  <link rel="stylesheet" href="../../css/style.min.42305055f05271e21ada5ab6d5e00b57b55d9f844baa457bb8c4eeae34801438.css">
   
 
   
@@ -54,58 +54,81 @@
   
 <div class="home__overlay" id="home-overlay"></div>
 <div id="main-menu-mobile" class="main-menu-mobile">
-  <div class="top-banner">
-    
-    <a href="https://brookenf.github.io/uprooted-mejo584/">Uprooted
-    </a>
-    
-  </div>
-  <ul>
-    
-    
-    <li class="story-1">
-      <a href="../../es/story1/">
-        <span>Spanish Story 1 Name</span>
-      </a>
-    </li>
-    
-    <li class="story-2">
-      <a href="../../es/story2/">
-        <span>Wasted Skills Abound</span>
-      </a>
-    </li>
-    
-    <li class="story-3">
-      <a href="../../es/story3/">
-        <span>Providing Necessary Aid</span>
-      </a>
-    </li>
-    
-    <li class="story-4">
-      <a href="../../es/story4/">
-        <span>Generation in Limbo</span>
-      </a>
-    </li>
-    
-    <li class="story-5">
-      <a href="../../es/story5/">
-        <span>Road to Wellness</span>
-      </a>
-    </li>
-    
-  </ul>
-  <div class="bottom-menu flex">
-    <div class="about-social">
-      <a href="../../about" class="about">About Us</a>
-      <div class="social flex">
-        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
-      </div>
+  <div class="inner-menu">
+    <button onclick="showStoryMenu()" class="inner-menu-button" id="stories-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Stories
+        <i id="story-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+    <div class="inner-menu-items" id="story-menu-items">
+      
+      
+      <a class="inner-menu-item" href="../../es/story1/"></a>
+      
+      <a class="inner-menu-item" href="../../es/story2/"></a>
+      
+      <a class="inner-menu-item" href="../../es/story3/"></a>
+      
+      <a class="inner-menu-item" href="../../es/story4/"></a>
+      
+      <a class="inner-menu-item" href="../../es/story5/"></a>
+      
     </div>
-    <div class="header__lang-toggle">
-      <a href="../../en"><span class="header__lang-toggle__en">EN</span></a> |
-      <a href="../../es"><span class="header__lang-toggle__es">ES</span></a>
+  </div>
+  <div class="inner-menu">
+    <button onclick="showPhotoMenu()" class="inner-menu-button" id="photo-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Photo Journey
+        <i id="photo-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+    <div class="inner-menu-items" id="photo-menu-items">
+      
+    </div>
+  </div>
+  <div class="bottom-menu">
+    <div class="about-social">
+      <div class="header__lang-toggle">
+        <a href="../../en"><span class="header__lang-toggle__en">EN</span></a> |
+        <a href="../../es"><span class="header__lang-toggle__es">ES</span></a>
+      </div>
+      <a href="../../about" class="about">About Us</a>
+      <div class="social">
+        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+      </div>
     </div>
   </div>
 </div>
@@ -575,7 +598,7 @@ After TK how long, to start selling candy in the park.</p>
 
 
 
-<script type="text/javascript" src="../../js/childrenBundle.min.353bf1b57f8c3798e1a2278db583cebf33d1ed8f8070be0887867d87af2ece62.js"></script>
+<script type="text/javascript" src="../../js/childrenBundle.min.c9c71f2f27d51b7acf151debacaa82d0164c8a8e8f22184acd1acb91abae4ea6.js"></script>
 
 
 

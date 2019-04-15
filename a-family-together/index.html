@@ -32,7 +32,7 @@
   
   
   
-  <link rel="stylesheet" href="../css/style.min.20515d8b09da5b909e8f49168a05abdcd7de8b9d975f2a94d58e8c795a3ce543.css">
+  <link rel="stylesheet" href="../css/style.min.42305055f05271e21ada5ab6d5e00b57b55d9f844baa457bb8c4eeae34801438.css">
   
 
   
@@ -54,58 +54,93 @@
   
 <div class="home__overlay" id="home-overlay"></div>
 <div id="main-menu-mobile" class="main-menu-mobile">
-  <div class="top-banner">
-    
-    <a href="https://brookenf.github.io/uprooted-mejo584/">Uprooted
-    </a>
-    
-  </div>
-  <ul>
-    
-    
-    <li class="story-1">
-      <a href="../story1/">
-        <span>Undocumented Venezuelans find their livelihood by singling on the street.</span>
-      </a>
-    </li>
-    
-    <li class="story-2">
-      <a href="../story2/">
-        <span>A soccer team finds a home away from home.</span>
-      </a>
-    </li>
-    
-    <li class="story-3">
-      <a href="../the-greatest-need/">
-        <span>A family’s sacrifice for their children’s health still has roadblocks.</span>
-      </a>
-    </li>
-    
-    <li class="story-4">
-      <a href="../cost-of-dreams/">
-        <span>Children sacrifice their education to help their families.</span>
-      </a>
-    </li>
-    
-    <li class="story-5">
-      <a href="../a-mothers-sacrifice/">
-        <span>A mother’s effort to provide and reunite with her children.</span>
-      </a>
-    </li>
-    
-  </ul>
-  <div class="bottom-menu flex">
-    <div class="about-social">
-      <a href="../about" class="about">About Us</a>
-      <div class="social flex">
-        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="fab fa-twitter"></i></a>
-      </div>
+  <div class="inner-menu">
+    <button onclick="showStoryMenu()" class="inner-menu-button" id="stories-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Stories
+        <i id="story-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+    <div class="inner-menu-items" id="story-menu-items">
+      
+      
+      <a class="inner-menu-item" href="../story1/"><p class='story-topic'>Documentation</p><h3 class='story-title'>Finding Your Voice</h3></a>
+      
+      <a class="inner-menu-item" href="../story2/"><p class='story-topic'>Economy</p><h3 class='story-title'>Making It Work</h3></a>
+      
+      <a class="inner-menu-item" href="../the-greatest-need/"><p class='story-topic'>Health</p><h3 class='story-title'>The Greatest Need</h3></a>
+      
+      <a class="inner-menu-item" href="../cost-of-dreams/"><p class='story-topic'>Education</p><h3 class='story-title'>The Cost of Dreams</h3></a>
+      
+      <a class="inner-menu-item" href="../a-mothers-sacrifice/"><p class='story-topic'>Women</p><h3 class='story-title'>A Mother's Sacrifice</h3></a>
+      
     </div>
-    <div class="header__lang-toggle">
-      <a href="../en"><span class="header__lang-toggle__en">EN</span></a> |
-      <a href="../es"><span class="header__lang-toggle__es">ES</span></a>
+  </div>
+  <div class="inner-menu">
+    <button onclick="showPhotoMenu()" class="inner-menu-button" id="photo-menu-button" type="button" aria-label="Menu"
+      aria-controls="navigation" aria-expanded="true/false">
+      <h2 class="inner-menu-title">Photo Journey
+        <i id="photo-menu-arrow" class="inner-menu-arrow fa fa-angle-down"></i>
+      </h2>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+    <div class="inner-menu-items" id="photo-menu-items">
+      
+      <a class="inner-menu-item" href="../what-they-carry/"><p class='story-topic'>Chapter One</p><h3 class='story-title'>What They Carry</h3></a>
+      </li>
+      
+      <a class="inner-menu-item" href="../a-new-home/"><p class='story-topic'>Chapter Two</p><h3 class='story-title'>A New Home</h3></a>
+      </li>
+      
+      <a class="inner-menu-item" href="../a-family-together/"><p class='story-topic'>Chapter Three</p><h3 class='story-title'>A Family, Together</h3></a>
+      </li>
+      
+      <a class="inner-menu-item" href="../making-it-in-medellin/"><p class='story-topic'>Chapter Four</p><h3 class='story-title'>Making it in Medellín</h3></a>
+      </li>
+      
+    </div>
+  </div>
+  <div class="bottom-menu">
+    <div class="about-social">
+      <div class="header__lang-toggle">
+        <a href="../en"><span class="header__lang-toggle__en">EN</span></a> |
+        <a href="../es"><span class="header__lang-toggle__es">ES</span></a>
+      </div>
+      <a href="../about" class="about">About Us</a>
+      <div class="social">
+        <a href="https://facebook.com/uprootedunc" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uprootedunc" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="https://twitter.com/@uprootedunc" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+      </div>
     </div>
   </div>
 </div>
@@ -435,7 +470,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_01.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_01.jpg" alt="A man holding a neon orange sign, with his belonging around him, is seen through another mans legs" />
   
   <div class="caption flex">
     <p>Michael Sanchez holds up a sign reading &ldquo;hola Amigos somos Venezolanos en busca de un mejor futuro. pueden colaborarnos con algo comida o dinero estariamos muy agradeeidos dios les bendiga y les multiplique. &lsquo;Amen&rsquo; Gracias.&rdquo; This translates to &ldquo;Hi, we are Venezuelans in search of a better future. can you help us with some food or money we would be very grateful god bless you and multiply on you. &lsquo;Amen&rsquo;, thanks.&rdquo; He does this while sitting on a bench near San Antonio metro station that was marked as the family&rsquo;s &ldquo;home base&rdquo; for the day as they split up to try and make enough money to afford a place to sleep at night.</p>
@@ -455,7 +490,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_02.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_02.jpg" alt="Two women show a man small candy they are giving out while he grips money" />
   
   <div class="caption flex">
     <p>Genesis (near left) and Yuneda (back left) count out how many pieces of candy to sell to a man who stopped to give them money. They are not technically selling candy because they would need a vending license. Instead people give them donations and they offer small candy as a thank you in return. Some people choose to take the candy while others are happy to simply help.</p>
@@ -475,7 +510,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_03.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_03.jpg" alt="A woman is seen between to other people as they all look to hand out candy while two men sit on a bench and count money." />
   
   <div class="caption flex">
     <p>Genesis Moreno (back, middle) attempts to sell small candies while Yuneda Nelo (front, left) and Michael Sanchez (front, middle) talk about where to stand to best make money. At the same time Carlos Gabedes (near right) and Jonelle Gabedes (far right), count their money to see how much they will need to make that day to afford a small room for the five of them to sleep in that night. Carlos splits from the group completely each day to sell candy at an intersection in a different region of the city, Poblado, in hopes of bringing in additional income.</p>
@@ -495,7 +530,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_04.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_04.jpg" alt="Two men sleep under a bench during sunset" />
   
   <div class="caption flex">
     <p>Jonelle (left) and Michael take a nap under the bench the family has spent the entire day around. The men in the family receive significantly less donations than the women so they normally spend time keeping watch of their belongings on the bench and napping.</p>
@@ -514,7 +549,7 @@
 
 
 <div class="photo-caption-container-vert flex-column">
-  <img src="assets/Photo_Chapter3_05.jpg" alt="undefined" />
+  <img src="assets/Photo_Chapter3_05.jpg" alt="A man holds his girlfriend affectionately from behind and they both laugh" />
   <div class="caption flex">
     <p>Jonelle holds and kisses his girlfriend, Yuneda, at the end of the night. Although each day is full of hardship and struggle, there are still plentiful moments of joy, happiness and love. These tender moments reveal the strength and resilience of the human spirit and prove that love and life continue to push the family forward.</p>
 
@@ -533,7 +568,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_06.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_06.jpg" alt="Two people count out coins in a clear plastic cup at night" />
   
   <div class="caption flex">
     <p>Genesis (left) and Michael do a final count of the money they collected during the day. On this particular day the family made enough money to afford a room for the night. The family also discussed starting to put money aside when possible to try and eventually afford a monthly housing situation.</p>
@@ -553,7 +588,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_07.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_07.jpg" alt="A woman rests on a backpack on the sidewalk at night." />
   
   <div class="caption flex">
     <p>Genesis rests on their pile of belongings while they wait for Carlos to return to the bench at the end of the night. Genesis is on her feet upwards of 15 hours a day trying to make enough money to survive. This is the first time she has been able to lie down and rest all day.</p>
@@ -573,7 +608,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_08.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_08.jpg" alt="Three men and two women carrying walk down a sidewalk at night while carrying many bags" />
   
   <div class="caption flex">
     <p>(From left) Michael, Yuneda, Jonelle, Genesis and Carlos carry all their belongings down the street as they walk to the shelter they stayed in the previous night in an effort to once again purchase a room. In order to get there, they must carry their bags through one of the more dangerous parts of the downtown area where the black market operates.</p>
@@ -593,7 +628,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_09.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_09.jpg" alt="A man and a woman stand in a dimly lit green hallway" />
   
   <div class="caption flex">
     <p>Genesis (left) and Jonelle wait in the hallway to see if there is any room left in the inquilinato for them to spend the night. An inquilinato is a small shelter where people can pay for a small room on a nightly basis. The hallways are dimly lit and reveal bare wires, cracked walls and copious amounts of dirt. The small rooms each come with a twin mattress, small nightstand, dresser and black and white box TV that usually takes a few firm hits to get functional.</p>
@@ -613,7 +648,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_10.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_10.jpg" alt="A family of five sits in a small and unkempt rented room" />
   
   <div class="caption flex">
     <p>Carlos (center) watches TV while Jonelle and Yuneda kiss in the corner of the bed and Michael and Genesis rest on a thin foam mattress they share each night on the remaining floor space. The rest of their belongings are stacked on the nightstand or tucked up against the walls.</p>
@@ -633,7 +668,7 @@
 
 <div class="photo-caption-container flex-column">
    
-  <img src="assets/Photo_Chapter3_12.jpg" alt="Venezuelans in Medellín, Colombia" />
+  <img src="assets/Photo_Chapter3_12.jpg" alt="A woman looks off to the right during sunset" />
   
   <div class="caption flex">
     <p>Yuneda Nelo looks off into the sun as she sits on the family&rsquo;s usual bench. The long days leave plenty of time for introspection and deep thought. Yuneda expressed that she often thinks about if life is actually better in Colombia. They all left lives behind to come in search of something better. But the question remains, is this truly an improvement?</p>
@@ -790,7 +825,7 @@
 
 
 
-<script type="text/javascript" src="../js/photoPagesBundle.min.2648db4aa1e0616156e1f7ec8edcb30adc848569ec3f8cc2ab6d1c826c3491eb.js"></script>
+<script type="text/javascript" src="../js/photoPagesBundle.min.9eb90b2e9a3371debe226c66274feab4cb6796faf505f44d923c8376fb8cddc2.js"></script>
 
 
 
