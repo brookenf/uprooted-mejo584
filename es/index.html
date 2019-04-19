@@ -44,7 +44,7 @@ families and their adjustments to living in Medellín, Colombia.</title>
   
   
   
-  <link rel="stylesheet" href="../css/style.min.2e17241f3aeae34119b2fa90adcdfeb8808754dda160dd6aa7e5168981ab55f3.css">
+  <link rel="stylesheet" href="../css/style.min.75b72ab463fcbd62fbfdc1b879ec41ab21549ddf77c46f9b7e908b9f567f94af.css">
   
 
   
@@ -238,25 +238,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 
 <div class="home__scroll">
   <section class="panel flex-column bg-cover bg-position-center" id="home__intro">
-    <img class="home__logo" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
-  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
-  <g>
-    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
-      x2="64.993" y2="1.5" />
-  </g>
-  <g>
-    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
-      x2="128.058" y2="1.5" />
-  </g>
-  <g>
-    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
-      x2="190.847" y2="1.5" />
-  </g>
-</svg>
     <video class="home-video" autoplay>
       
-      <source src="../images/HomePageFinal.mp4" type="video/mp4" />
+      <source src="../images/HomePageNoGraphicCompressed.mp4" type="video/mp4" />
     </video>
     <div id="main-menu-mobile" class="main-menu-mobile">
   <div class="inner-menu">
@@ -334,12 +318,32 @@ families and their adjustments to living in Medellín, Colombia.</title>
     </div>
   </div>
 </div>
-    <h2 class="home__subtitle" id="home-subtitle">Familias Venezolanas huyen a Colombia</h2>
-    <div class="home__desc" id="home-desc"><p>Venezuela se enfrenta a la peor crisis migratoria en América Latina en las últimas dos décadas. Solo en los últimos cinco años, más de 3 millones de Venezolanos han abandonado el país debido a la hiperinflación, el desempleo y la inanición. El vecino de Venezuela, Colombia, ha llevado a 1 millón de Venezolanos a través de sus fronteras. Estas son las historias de aquellos migrantes que han huido de Venezuela y viajaron a Colombia en busca de una vida mejor.</p>
+    <div class="flex-column" id="home-text-container">
+      <div id="home-logo-line">
+        <img class="home__logo flex-column" src="./images/uprooted-logo-gif.gif" alt="Uprooted UNC logo" />
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="ybr-line"
+  x="0px" y="0px" viewBox="0 0 192 10" xml:space="preserve" preserveAspectRatio="none">
+  <g>
+    <line class="ybr-section" fill="none" stroke="#fbbc00" stroke-miterlimit="10" stroke-width="2" x1="0" y1="1.5"
+      x2="64.993" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#1457D3" stroke-miterlimit="10" stroke-width="2" x1="64.718" y1="1.5"
+      x2="128.058" y2="1.5" />
+  </g>
+  <g>
+    <line class="ybr-section" fill="none" stroke="#C70032" stroke-miterlimit="10" stroke-width="2" x1="127.507" y1="1.5"
+      x2="190.847" y2="1.5" />
+  </g>
+</svg>
+      </div>
+      <h2 class="home__subtitle" id="home-subtitle">Familias Venezolanas huyen a Colombia</h2>
+      <div class="home__desc" id="home-desc"><p>Venezuela se enfrenta a la peor crisis migratoria en América Latina en las últimas dos décadas. Solo en los últimos cinco años, más de 3 millones de Venezolanos han abandonado el país debido a la hiperinflación, el desempleo y la inanición. El vecino de Venezuela, Colombia, ha llevado a 1 millón de Venezolanos a través de sus fronteras. Estas son las historias de aquellos migrantes que han huido de Venezuela y viajaron a Colombia en busca de una vida mejor.</p>
 </div>
-    <div class="home__explore">
-      <p>Explore</p>
-      <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+      <div class="home__explore">
+        <p>Explore</p>
+        <a href="#home__cards"><i class="fas fa-chevron-down"></i></a>
+      </div>
     </div>
   </section>
 
@@ -347,7 +351,7 @@ families and their adjustments to living in Medellín, Colombia.</title>
     <div class="cards">
 
   
-  <div class="card" id="card-1">
+  <a href="../es/finding-your-voice/" class="card" id="card-1">
     
     <img class="card__img" src="../story1/assets/gov-homepagestill.jpg" alt="Venezuela">
     
@@ -370,7 +374,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">Encontrando tu Voz</div>
       <div class="card__button">
-        <a href="../es/finding-your-voice/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -393,12 +399,14 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">Encontrando tu Voz</div>
       <div class="card__desc">Undocumented Venezuelans find their livelihood by singing on the street.</div>
       <div class="card__button">
-        <a href="../es/finding-your-voice/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
-  <div class="card" id="card-2">
+  <a href="../es/making-it-work/" class="card" id="card-2">
     
     <img class="card__img" src="../story2/assets/econ-homepagestill.jpg" alt="Venezuela">
     
@@ -421,7 +429,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">Resolviendo</div>
       <div class="card__button">
-        <a href="../es/making-it-work/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -444,12 +454,14 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">Resolviendo</div>
       <div class="card__desc">Venezolanos encuentran camaradería, familia y apoyo a través del deporte.</div>
       <div class="card__button">
-        <a href="../es/making-it-work/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
-  <div class="card" id="card-3">
+  <a href="../es/greater-than-death/" class="card" id="card-3">
     
     <img class="card__img" src="../story3/assets/health-homepagestill.jpg" alt="Venezuela">
     
@@ -472,7 +484,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">La Necesidad Más Grande</div>
       <div class="card__button">
-        <a href="../es/greater-than-death/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -495,12 +509,14 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">La Necesidad Más Grande</div>
       <div class="card__desc">A family’s sacrifice for their children’s health still has roadblocks.</div>
       <div class="card__button">
-        <a href="../es/greater-than-death/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
-  <div class="card" id="card-4">
+  <a href="../es/cost-of-dreams/" class="card" id="card-4">
     
     <img class="card__img" src="../story4/assets/education-homepagestill.png" alt="Venezuela">
     
@@ -523,7 +539,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">Lo que Cuestan los Sueños</div>
       <div class="card__button">
-        <a href="../es/cost-of-dreams/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -546,12 +564,14 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">Lo que Cuestan los Sueños</div>
       <div class="card__desc">Los niños sacrifican su educación para apoyar a sus familias.</div>
       <div class="card__button">
-        <a href="../es/cost-of-dreams/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
-  <div class="card" id="card-5">
+  <a href="../es/a-mothers-sacrifice/" class="card" id="card-5">
     
     <img class="card__img" src="../story5/assets/women-homepagestill.jpg" alt="Venezuela">
     
@@ -574,7 +594,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">El Sacrificio de una Madre</div>
       <div class="card__button">
-        <a href="../es/a-mothers-sacrifice/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -597,12 +619,14 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">El Sacrificio de una Madre</div>
       <div class="card__desc">A mother’s effort to provide and reunite with her children.</div>
       <div class="card__button">
-        <a href="../es/a-mothers-sacrifice/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
-  <div class="card" id="card-6">
+  <a href="../es/what-they-carry/" class="card" id="card-6">
     
     <img class="card__img" src="" alt="Venezuela">
     
@@ -625,7 +649,9 @@ families and their adjustments to living in Medellín, Colombia.</title>
 </svg>
       <div class="card__title">Photo Journey</div>
       <div class="card__button">
-        <a href="../es/what-they-carry/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
     <div class="card__hover">
@@ -648,10 +674,12 @@ families and their adjustments to living in Medellín, Colombia.</title>
       <div class="card__title">Photo Journey</div>
       <div class="card__desc">This is the description for the first story.</div>
       <div class="card__button">
-        <a href="../es/what-they-carry/">Explore &nbsp; <i class="fas fa-arrow-right"></i></a>
+        <div class="card__button-text">
+          Explore &nbsp; <i class="fas fa-arrow-right"></i>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   
 </div>
   </section>
@@ -771,7 +799,7 @@ families and their adjustments to living in Medellín, Colombia.</title>
 
 
 
-<script type="text/javascript" src="../js/homepageBundle.min.cb63844f20fcc07e125908b95557b78e68ee7b0b12c3ca8ccf8681b0a8aa75eb.js"></script>
+<script type="text/javascript" src="../js/homepageBundle.min.1c8c10666b319fd2147b1d6b78784b2fe873d718937b46010414e9736472fbca.js"></script>
 
 
 
