@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-hopeful-voice/"
+                href="http://uprooted.unc.edu/es/encontrando-tu-voz/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -23,7 +23,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/brothers-on-the-pitch/"
+                href="http://uprooted.unc.edu/es/hermanos-en-el-terreno/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -38,7 +38,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-new-home/"
+                href="http://uprooted.unc.edu/es/un-nuevo-hogar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -53,7 +53,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/greater-than-death/"
+                href="http://uprooted.unc.edu/es/mas-grande-que-la-muerte/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -68,7 +68,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-family-together/"
+                href="http://uprooted.unc.edu/es/una-familia-unida/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -83,7 +83,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/cost-of-dreams/"
+                href="http://uprooted.unc.edu/es/lo-que-cuestan-los-suenos/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -98,7 +98,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/making-it-in-medellin/"
+                href="http://uprooted.unc.edu/es/lograndolo-en-medellin/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -113,7 +113,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-mothers-sacrifice/"
+                href="http://uprooted.unc.edu/es/el-sacrificio-de-una-madre/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -128,7 +128,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/what-they-carry/"
+                href="http://uprooted.unc.edu/es/lo-que-cargan/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -153,8 +153,47 @@
   </url>
   
   <url>
+    <loc>http://uprooted.unc.edu/home-help/</loc>
+    <lastmod>2019-03-25T09:35:17-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/home-help/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/home-help/"
+                />
+  </url>
+  
+  <url>
     <loc>http://uprooted.unc.edu/about/</loc>
     <lastmod>2019-02-04T21:36:24-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/sobre-nosotros/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/four-oh-four/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/four-oh-four/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/four-oh-four/"
+                />
   </url>
   
   <url>

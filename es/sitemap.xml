@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://uprooted.unc.edu/es/a-hopeful-voice/</loc>
+    <loc>http://uprooted.unc.edu/es/encontrando-tu-voz/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -13,12 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-hopeful-voice/"
+                href="http://uprooted.unc.edu/es/encontrando-tu-voz/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/brothers-on-the-pitch/</loc>
+    <loc>http://uprooted.unc.edu/es/hermanos-en-el-terreno/</loc>
     <lastmod>2019-02-04T21:35:11-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,12 +28,27 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/brothers-on-the-pitch/"
+                href="http://uprooted.unc.edu/es/hermanos-en-el-terreno/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/greater-than-death/</loc>
+    <loc>http://uprooted.unc.edu/es/un-nuevo-hogar/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/a-new-home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/un-nuevo-hogar/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/mas-grande-que-la-muerte/</loc>
     <lastmod>2019-02-04T21:35:29-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -43,12 +58,27 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/greater-than-death/"
+                href="http://uprooted.unc.edu/es/mas-grande-que-la-muerte/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/cost-of-dreams/</loc>
+    <loc>http://uprooted.unc.edu/es/una-familia-unida/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/a-family-together/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/una-familia-unida/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/lo-que-cuestan-los-suenos/</loc>
     <lastmod>2019-02-04T21:35:51-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -58,12 +88,27 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/cost-of-dreams/"
+                href="http://uprooted.unc.edu/es/lo-que-cuestan-los-suenos/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/a-mothers-sacrifice/</loc>
+    <loc>http://uprooted.unc.edu/es/lograndolo-en-medellin/</loc>
+    <lastmod>2019-02-04T21:34:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://uprooted.unc.edu/making-it-in-medellin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://uprooted.unc.edu/es/lograndolo-en-medellin/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://uprooted.unc.edu/es/el-sacrificio-de-una-madre/</loc>
     <lastmod>2019-02-04T21:36:06-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -73,12 +118,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-mothers-sacrifice/"
+                href="http://uprooted.unc.edu/es/el-sacrificio-de-una-madre/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/what-they-carry/</loc>
+    <loc>http://uprooted.unc.edu/es/lo-que-cargan/</loc>
     <lastmod>2019-02-04T21:34:53-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -88,7 +133,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/what-they-carry/"
+                href="http://uprooted.unc.edu/es/lo-que-cargan/"
                 />
   </url>
   
@@ -108,44 +153,46 @@
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/a-family-together/</loc>
+    <loc>http://uprooted.unc.edu/es/home-help/</loc>
+    <lastmod>2019-03-25T09:35:17-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://uprooted.unc.edu/a-family-together/"
+                href="http://uprooted.unc.edu/home-help/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-family-together/"
+                href="http://uprooted.unc.edu/es/home-help/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/a-new-home/</loc>
+    <loc>http://uprooted.unc.edu/es/sobre-nosotros/</loc>
+    <lastmod>2019-02-04T21:36:24-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://uprooted.unc.edu/a-new-home/"
+                href="http://uprooted.unc.edu/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/a-new-home/"
+                href="http://uprooted.unc.edu/es/sobre-nosotros/"
                 />
   </url>
   
   <url>
-    <loc>http://uprooted.unc.edu/es/making-it-in-medellin/</loc>
+    <loc>http://uprooted.unc.edu/es/four-oh-four/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://uprooted.unc.edu/making-it-in-medellin/"
+                href="http://uprooted.unc.edu/four-oh-four/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://uprooted.unc.edu/es/making-it-in-medellin/"
+                href="http://uprooted.unc.edu/es/four-oh-four/"
                 />
   </url>
   
